@@ -1,11 +1,16 @@
 # python-api
 
-Run 
-``python user.py run``
+**Setup:**
 
-    curl --location --request GET 'localhost:5000/users' \
-    --header 'Content-Type: application/json' \
-    --data-raw '{
+```python user.py run```
+
+**POST:**
+```localhost:5000/users```
+
+**Payload:**
+```
+   {
         "name": "aniela",
         "email": "bla"
     }'
+```

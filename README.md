@@ -14,3 +14,11 @@
         "email": "bla"
     }'
 ```
+
+```
+heroku login
+```
+
+```
+heroku logs --tail --app berry-python-api
+```

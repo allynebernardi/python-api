@@ -24,6 +24,9 @@ heroku git:remote --app berry-python-api
 heroku run pip freeze
 ```
 ```
+pipenv install
+```
+```
 virtualenv venv
 ```
 ```

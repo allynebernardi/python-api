@@ -5,14 +5,14 @@
 ```python user.py run```
 
 **POST:**
-```localhost:5000/users```
+```localhost:8000/users```
 
 **Payload:**
 ```
    {
         "name": "aniela",
         "email": "bla"
-    }'
+    }
 ```
 ```
 heroku login
@@ -21,13 +21,16 @@ heroku login
 heroku git:remote --app berry-python-api
 ```
 ```
-heroku run pip freeze
+ pip freeze > requirements.txt
 ```
 ```
-pipenv install
+python3 -m venv env
 ```
 ```
-virtualenv venv
+source env/bin/activate
+```
+```
+gunicorn app:app
 ```
 ```
 git push heroku master

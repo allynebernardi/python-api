@@ -21,13 +21,13 @@ heroku login
 heroku git:remote --app berry-python-api
 ```
 ```
- pip freeze > requirements.txt
-```
-```
 python3 -m venv env
 ```
 ```
 source env/bin/activate
+```
+```
+pip freeze > requirements.txt
 ```
 ```
 gunicorn app:app

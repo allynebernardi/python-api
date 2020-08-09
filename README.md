@@ -20,7 +20,12 @@ heroku login
 ``` 
 heroku git:remote --app berry-python-api
 ```
-
+```
+heroku run pip freeze
+```
+```
+virtualenv venv
+```
 ```
 heroku logs --tail --app berry-python-api
 ```

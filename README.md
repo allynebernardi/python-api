@@ -27,6 +27,9 @@ heroku run pip freeze
 virtualenv venv
 ```
 ```
+git push heroku master
+```
+```
 heroku logs --tail --app berry-python-api
 ```
 

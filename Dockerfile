@@ -1,0 +1,4 @@
+FROM library/postgres
+ENV POSTGRES_USER berries
+ENV POSTGRES_PASSWORD berries
+ENV POSTGRES_DB apiDB
